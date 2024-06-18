@@ -1,31 +1,35 @@
 {
   "name": "bosnian-css-preprocessor",
-  "version": "1.0.0",
-  "description": "A PostCSS plugin to translate CSS properties and values from Bosnian to English.",
-  "main": "lib/bosnian-preprocessor.js",
+  "version": "1.1.7",
+  "description": "A  plugin to translate CSS properties and values from Bosnian to English.",
+  "main": "src/bosnian-preprocessor.js",
   "bin": {
-    "bosnian-css-preprocessor": "./cli.js"
+    "bosnian-css-preprocessor": "./bin/bosnian-css-preprocessor.js"
   },
-  "scripts": {
-    "start": "node watch.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "chokidar": "^3.5.2",
+    "mkdirp": "^1.0.4",
+    "postcss": "^8.3.5",
+    "fs-extra": "^10.0.0",
+    "yargs": "^17.0.1"
   },
   "keywords": [
-    "postcss",
-    "plugin",
     "bosnian",
     "css",
-    "preprocessor"
+    "preprocessor",
+    "postcss",
+    "gulp",
+    "plugin",
+    "bosnian-css-preprocessor",
+    "bosnian-css",
+    "bosnian-css-translator",
+    "bosnia",
+    "bosanski",
+    "bosnaihercegovina",
+    "bih"
   ],
-  "author": "Mirza Murić",
-  "license": "MIT",
-  "dependencies": {
-    "autoprefixer": "^10.3.7",
-    "browser-sync": "^2.27.7",
-    "chokidar": "^3.5.2",
-    "postcss": "^8.3.11",
-    "postcss-import": "^14.0.2",
-    "postcss-nested": "^5.0.6"
-  },
-  "devDependencies": {}
+  "author": "Your Name",
+  "license": "MIT"
 }
